@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme{
+  --color-dark-blue: #1a252f;
+  --color-dark: #2c3e50;
+  --color-cyan: #1abc9c;
+  --color-cyan-transparent: rgba(26, 188, 156, 0.9);
+  --color-blue-opacity: rgba(13, 110, 253, 0.25);
+}
+@layer base{
+  .transition-smooth{
+    transition: all 0.3s;
+  }
+}
